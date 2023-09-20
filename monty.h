@@ -1,5 +1,7 @@
 #ifndef __MONTY_H__
 #define __MONTY_H__
+#define _GNU_SOURCE
+#define _POSIX_C_SOURCE 200809L
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,6 +10,7 @@
 #define STACK 0
 #define QUEUE 1
 #define DELIMS " \n\t\a\b"
+#define _POSIX_C_SOURCE 200809L
 
 /* GLOBAL OPCODE TOKENS */
 extern char **op_toks;
